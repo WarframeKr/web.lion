@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+  background: #e2ed9c;
+}
+
+header, section, footer, aside, nav, article {
+  display: block;
+}
+
+a {
+  color: #1b75bc;
+}
+
+a:hover {
+  color: #d6562b;
+}
+
+a img {
+  border: none;
+}
+
+header {
+  display: block;
+  background: #00b0d8 url(images/header-gradient.png) repeat-x;
+}
+
+.header-bg {
+  background: url(images/header-animal.png) repeat-x center bottom;
+  height: 405px;
+  text-align: center;
+}
+
+.header-bg img {
+  position: relative;
+  top: 40px;
+}
+
+.content-gradient {
+  background: #f9f2e3 url(images/content-gradient.png) repeat-x;
+}
+
+.content-bg {
+  width: 760px;
+  margin: auto;
+  background: url(images/content-bg.png) repeat-y;
+}
+
+.content-white {
+  background: #fff;
+  margin: 0 11px;
+  padding: 20px 40px 80px;
+  text-align: justify;
+}
+
+section header {
+  background: none;
+}
+
+.warning {
+  overflow: hidden;
+  margin: 30px 0;
+  background: url(images/head.png) no-repeat;
+  min-height: 92px;
+}
+
+.warning h1, .warning p {
+  margin: 0 0 0 70px;
+}
+
+section h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+aside {
+  width: 200px;
+  float: right;
+}
+
+article {
+  margin-right: 240px;
+  display: block;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 40px 0;
+  padding: 0;
+}
+
+ul.menu li {
+  padding: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+ul.menu a, ul.menu span {
+  padding: 5px;
+}
+
+ul.menu li span {
+  padding-left: 25px;
+  background: url(images/bullet.png) no-repeat 5px center;
+}
+
+ul.menu li.current {
+  background: #f9f2e2 url(images/menu-gradient.png) repeat-y;
+}
+
+.interest {
+  background: #f2efe6 url(images/shadow.png) no-repeat 0 100%;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.interest h3 {
+  margin: 0 0 -10px;
+}
+
+footer {
+  background: url(images/grass.png) 50% 53px no-repeat;
+  margin-top: -77px;
+  overflow: auto;
+  position: relative;
+}
+
+.lion {
+  position: absolute;
+  left: 50%;
+  margin-left: -347px;
+  top: 3px;
+}
+
+.footer-bg {
+  background: #e2ed9c;
+  margin-top: 80px;
+}
+
+.copyright {
+  width: 740px;
+  padding: 0 10px 10px;
+  margin: auto;
+  color: #526118;
+}
+
+.copyright p {
+  margin: 0 0 5px 170px;
+}

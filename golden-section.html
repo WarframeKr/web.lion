@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Метод золотого сечения — Как поймать льва в пустыне?</title>
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+    <script>
+      var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+      for (var i = 0; i < e.length; i++) { document.createElement(e[i]); }
+    </script>
+  <![endif]-->
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-bg">
+      <a href="index.html"><img src="images/header-title.png" alt="Как поймать льва в пустыне" width="456" height="166"></a>
+    </div>
+  </header>
+
+  <div class="content-gradient">
+    <div class="content-bg">
+      <div class="content-white">
+        <div class="page-layout">
+
+          <aside class="sidebar">
+            <nav>
+              <ul class="menu">
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="assumption.html">Допущения</a></li>
+                <li><a href="simple-iteration.html">Метод простых итераций</a></li>
+                <li><a href="random-number.html">Метод случайных чисел</a></li>
+                <li><a href="dixotomia.html">Метод дихотомии</a></li>
+                <li class="current"><span>Метод золотого сечения</span></li>
+              </ul>
+            </nav>
+
+            <div class="interest">
+              <h3><img src="images/interest-title.png" alt="Интересная информация" width="164" height="30"></h3>
+              <p>Средний самец льва имеет длину около трёх метров и весит от 180 до 230 килограмм.</p>
+              <p>Львы питаются не только убитыми животными, они также не брезгуют падалью.</p>
+            </div>
+          </aside>
+
+          <article class="main-article">
+
+            <p class="breadcrumb"><a href="index.html">Главная</a> → Метод золотого сечения</p>
+
+            <img src="images/golden-title.png" alt="Метод золотого сечения" class="page-title-img">
+
+            <p>Золотым сечением называется принцип деления отрезка на две части, при этом бо́льшая часть отрезка относится к меньшей части так же, как длина всего отрезка к большей его части. Наглядно это показано на рис. 1.</p>
+
+            <figure>
+              <img src="images/fig5-1.png" alt="Пропорции золотого сечения">
+              <figcaption>Рис. 1. Пропорции золотого сечения</figcaption>
+            </figure>
+
+            <p>Золотое сечение характеризуется следующим соотношением:</p>
+
+            <div class="formula">
+              <img src="images/formula1.png" alt="Формула золотого сечения">
+            </div>
+
+            <p>Учитывая, что <em>C = A + B</em>, в итоге получим квадратное уравнение, корнем которого будет выражение:</p>
+
+            <div class="formula">
+              <img src="images/formula2.png" alt="Корень уравнения">
+            </div>
+
+            <p>Вернёмся к ловле льва. Метод золотого сечения является разновидностью метода дихотомии, при этом область пустыни делится не на две равные части, а в пропорции золотого сечения.</p>
+
+            <figure>
+              <img src="images/fig5-2.png" alt="Деление пустыни на две части">
+              <figcaption>Рис. 2. Деление пустыни на две части</figcaption>
+            </figure>
+
+            <p>Последовательное деление пустыни по вертикали и горизонтали продолжается до тех пор, пока оставшаяся часть по размерам не будет сопоставима с размерами клетки. Остается только накрыть полученный участок клеткой и лев окажется пойман.</p>
+
+            <figure>
+              <img src="images/fig5-3.png" alt="Количество итераций">
+              <figcaption>Рис. 3. Количество итераций</figcaption>
+            </figure>
+
+            <p>Деление области на две неравные части позволяет повысить точность поиска или сократить количество итераций по сравнению с методом дихотомии.</p>
+
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="lion"><img src="images/lion.png" alt="" width="130" height="80"></div>
+    <div class="footer-bg">
+      <div class="copyright">
+        <p><strong>Учебный сайт «Как поймать льва в пустыне»</strong></p>
+        <p>&copy; Шуряшкина Я.А.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

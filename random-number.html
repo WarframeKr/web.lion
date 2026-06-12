@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Метод случайных чисел — Как поймать льва в пустыне?</title>
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+    <script>
+      var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+      for (var i = 0; i < e.length; i++) { document.createElement(e[i]); }
+    </script>
+  <![endif]-->
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-bg">
+      <a href="index.html"><img src="images/header-title.png" alt="Как поймать льва в пустыне" width="456" height="166"></a>
+    </div>
+  </header>
+
+  <div class="content-gradient">
+    <div class="content-bg">
+      <div class="content-white">
+        <div class="page-layout">
+
+          <aside class="sidebar">
+            <nav>
+              <ul class="menu">
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="assumption.html">Допущения</a></li>
+                <li><a href="simple-iteration.html">Метод простых итераций</a></li>
+                <li class="current"><span>Метод случайных чисел</span></li>
+                <li><a href="dixotomia.html">Метод дихотомии</a></li>
+                <li><a href="golden-section.html">Метод золотого сечения</a></li>
+              </ul>
+            </nav>
+
+            <div class="interest">
+              <h3><img src="images/interest-title.png" alt="Интересная информация" width="164" height="30"></h3>
+              <p>Средний самец льва имеет длину около трёх метров и весит от 180 до 230 килограмм.</p>
+              <p>Львы питаются не только убитыми животными, они также не брезгуют падалью.</p>
+            </div>
+          </aside>
+
+          <article class="main-article">
+
+            <p class="breadcrumb"><a href="index.html">Главная</a> → Метод случайных чисел</p>
+
+            <img src="images/random-title.png" alt="Метод случайных чисел" class="page-title-img">
+
+            <p>Разделим пустыню на ряд элементарных прямоугольников, размер которых совпадает с размером клетки для льва. После чего перебираем полученные прямоугольники, каждый раз выбирая заданную область случайным образом. Если в данной области окажется лев, то мы поймаем его, накрыв клеткой.</p>
+
+            <figure>
+              <img src="images/fig3-1.png" alt="Разбиение пустыни на ряд элементарных прямоугольников">
+              <figcaption>Рис. 1. Разбиение пустыни на ряд элементарных прямоугольников</figcaption>
+            </figure>
+
+            <p>Метод случайных чисел является вариантом метода простых итераций, в котором происходит перебор участков пустыни для поиска льва. Разница только в том, что области выбираются не последовательно, а случайно. Таким образом, в лучшем случае поиск может закончиться сразу же, а в худшем — превратиться в метод перебора.</p>
+
+            <p>Поскольку номер области выбирается случайно, он может выпасть больше одного раза. Однако переходить второй раз в уже просмотренную область необходимости нет.</p>
+
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="lion"><img src="images/lion.png" alt="" width="130" height="80"></div>
+    <div class="footer-bg">
+      <div class="copyright">
+        <p><strong>Учебный сайт «Как поймать льва в пустыне»</strong></p>
+        <p>&copy; Шуряшкина Я.А.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
